@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9F9F9;
+}
+
+.header-top-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-bottom: 4px solid #1A1C1C;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul{
+display: none;
+}
+
+.title{
+    width: 134.19px;
+    height: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -1.2px;
+    text-transform: uppercase;
+    color: #964900;
+    display: inline-flex;
+    align-items: center;
+}
+.menu-toggle {              
+    padding: 8px 8px 14px 8px; 
+    background-color: transparent;
+    border: none;           
+    cursor: pointer;
+    position: relative;        
+}
+
+#main{
+    width: 390px;
+    height: 4267px;
+
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    height: fit-content;
+    padding: 40px 16px 40px 16px;
+    gap: 24px;
+}
+.EST{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 16px 4px 16px;
+    background-color: #1A1C1C;
+}
+.founded{
+    width: 92.81px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #F9F9F9;
+}
+.heading-margin-conatainer{
+    display: flex;
+    flex-direction: column;   
+    width: 100%;               
+    max-width: 358px;          
+    height: fit-content;      
+    padding-top: 16px;         
+}
+.hero-headline {
+    margin: 0;                
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;         
+    font-size: 32px;
+    line-height: 40px;            
+    letter-spacing: -0.64px;      
+    color: #1A1C1C;          
+}
+
+.hero-headline .highlight-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;         
+    font-size: 32px;        
+    line-height: 40px;
+    letter-spacing: -0.64px;
+    color: #964900;               
+}
+.hero-paragraph {
+  font-family: 'Inter', sans-serif;          
+  line-height: 24px;                
+  color: #574235;              
+}
+
+.button-margin-container {
+    display: flex;
+    flex-direction: column;         
+    width: 100%;                    
+    max-width: 358px;                
+    height: fit-content;            
+    
+    padding: 16px 8px 16px 8px;     
+}
+.btn-primary {
+    display: flex;
+    flex-direction: column;       
+    justify-content: center;      
+    align-items: center;            
+    width: 100%;                
+    max-width: 358px;               
+    height: 56px;                 
+    padding: 16px 116.31px 18px 116.31px; 
+    background-color: #964900;     
+    color: #FFFFFF;                
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;         
+}
+.btn-secondary {
+    display: flex;
+    flex-direction: column;        
+    justify-content: center;     
+    align-items: center;            
+    width: 100%;                   
+    max-width: 358px;               
+    height: 60px;                
+    border: 2px solid #1A1C1C;   
+    background-color: transparent; 
+    color: #1A1C1C; 
+    
+    padding: 16px 111.43px 16px 111.44px; 
+    
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;        
+}
+.services-margin-container {
+    display: flex;
+    flex-direction: column;                       
+    max-width: 358px;                
+    height: fit-content;            
+    padding-top: 40px;             
+}
+
+.image-card-frame {
+    position: relative;                              
+}
+
+.services-hero-img {
+    width: 100%;            
+    height: 100%;             
+    object-fit: cover;      
+    display: block;
+}
+
+.excellence-badge {
+    width: fit-content;       
+    padding: 16px;            
+    background-color: #964900;
+    position: absolute;       
+    bottom: 0px;               
+    left: -6px;                         
+    box-shadow: 4px 4px 0px 0px #2F3131;  
+}
+
+.excellence-badge-text {
+    font-family: 'Inter', sans-serif;                
+    font-size: 14px;            
+    line-height: 20px;                 
+    color: #FFFFFF;             
+}
